@@ -201,7 +201,7 @@ if (class_exists("GFForms")) {
         public function scripts() {
             $scripts = array(
                 array("handle"  => "my_script_js",
-                      "src"     => $this->get_base_url() . "/js/my_script.js",
+                      "src"     => $this->get_base_url() . "/js/jquery-asana-token.js",
                       "version" => $this->_version,
                       "deps"    => array("jquery"),
                       "enqueue" => array(
@@ -221,7 +221,7 @@ if (class_exists("GFForms")) {
 
             $styles = array(
                 array("handle"  => "asana_styles",
-                      "src"     => $this->get_base_url() . "/css/my_styles.css",
+                      "src"     => $this->get_base_url() . "/css/asana-token.css",
                       "version" => $this->_version,
                       "enqueue" => array(
                           array(
